@@ -3,10 +3,10 @@
 #include<math.h>
 
 double fun(double x){
-    return (cos(x)-x);
+    return (log(x)+2);
 }
 double der(double x){
-    return (-sin(x)-1);
+    return ((1/x)+2);
 }
 
 double newton(double x0,double tol){
